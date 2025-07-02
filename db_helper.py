@@ -4,8 +4,8 @@ global cnx
 cnx = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Gurudharshini@04",
-    database="pandeyji_eatery"
+    password="",
+    database=""
 )
 def get_total_order_price(order_id):
     cursor = cnx.cursor()
