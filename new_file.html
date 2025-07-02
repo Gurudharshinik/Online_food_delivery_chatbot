@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Chatbot</title>
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+  <style>
+    df-messenger {
+      --df-messenger-button-titlebar-color: #4285f4;
+      --df-messenger-chat-background-color: #f4f4f4;
+      --df-messenger-font-color: #000;
+      --df-messenger-send-icon: #4285f4;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Welcome to the Chatbot</h2>
+
+  <df-messenger
+    intent="WELCOME"
+    chat-title="Guru-chatbot-for-food-delivery"
+    agent-id="8076607f-cf1a-4fef-a7c3-b3c70fda5765"
+    language-code="en"
+  ></df-messenger>
+
+</body>
+</html>
